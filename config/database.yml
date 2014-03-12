@@ -17,11 +17,15 @@ development:
 test:
   adapter: postgresql
   database: db/test
+  host: localhost
+  port: 5432
   pool: 5
   timeout: 5000
 
 production:
   adapter: postgresql
   database: db/production
+  host: localhost
+  port: 5432
   pool: 5
   timeout: 5000
